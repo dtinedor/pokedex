@@ -1,6 +1,6 @@
 <?php 
-
-$conexion=new mysqli("localhost", "root", "", "pokedex");
+include("config.bbdd.php");
+$conexion=new mysqli($servidor,$usuario,$password,$bbdd);
 if ($conexion->connect_errno) {
     printf("Falló la conexión: %s\n", $conexion->connect_error);
     exit();

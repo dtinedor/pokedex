@@ -2,10 +2,10 @@ Procedimiento de instalación
 
 1. Entra en PhPMyAdmin y crea una base de datos que se llame pokedex. Dentro de esta base de datos 
 importa el fichero del proyecto con nombre pokemon.sql. Este fichero contiene una tabla que se llama
-mispokemon con los datos de 4 pokemon.
+mispokemon con los datos de 10 pokemon.
 
 2. Ve al directorio htdocs de Apache y copia la carpeta pokedex
 
 3. Accede desde tu navegador web a la siguiente dirección http://localhost/pokedex/pokedex.php
-Si todo el proceso ha sido correcto deberás ver los datos de 4 Pokemon.
+Si todo el proceso ha sido correcto deberás ver los datos de 10 Pokemon.
 
